@@ -1,4 +1,4 @@
-# T\&D — Comparativo de Engines (PySpark × Pandas × Polars × DuckDB)
+# T\&D PPP (PySpark × Pandas × Polars × DuckDB)
 
 ## Objetivo
 
