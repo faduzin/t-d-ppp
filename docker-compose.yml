@@ -1,0 +1,34 @@
+services:
+  pandas:
+    build: ./docker/pandas
+    volumes:
+      - ./scripts:/app
+      - ./data:/data:ro
+      - ./results:/results
+    command: ["bash"]
+
+  polars:
+    build: ./docker/polars
+    volumes:
+      - ./scripts:/app
+      - ./data:/data:ro
+      - ./results:/results
+    command: ["bash"]
+
+  pyspark:
+    build: ./docker/pyspark
+    volumes:
+      - ./scripts:/app
+      - ./data:/data:ro
+      - ./results:/results
+    environment:
+      SPARK_DRIVER_MEMORY: 4g
+    command: ["bash"]
+
+  duckdb:
+    build: ./docker/duckdb
+    volumes:
+      - ./scripts:/app
+      - ./data:/data:ro
+      - ./results:/results
+    command: ["bash"]

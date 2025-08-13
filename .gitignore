@@ -1,3 +1,4 @@
-data/raw/*
-!data/raw/.gitkeep
-data/combined_data.csv
+data/*
+!data/.gitkeep
+results/*
+!results/metrics.csv
