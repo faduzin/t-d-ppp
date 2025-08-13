@@ -45,7 +45,6 @@ Comparar **desempenho de processamento**, **uso de memória** e **tamanho/estrut
 ## Resultados Obtidos
 
 > Valores abaixo refletem as **médias** dos 3 experimentos por ferramenta.
-> Quando não houver valor numérico informado neste resumo, foi mantido como **—**.
 
 | Ferramenta  |                       Concat + Transform (s) | Salvamento (s) |   Mem. média | Pico de Mem. | Parquet (KB) / Layout                          |
 | ----------- | -------------------------------------------: | -------------: | -----------: | -----------: | ---------------------------------------------- |
@@ -83,7 +82,7 @@ Comparar **desempenho de processamento**, **uso de memória** e **tamanho/estrut
   * **Pandas**: **menor uso** (média \~**337 MB**, pico \~**370 MB**).
   * **Polars**: **moderado** (média \~**1,16 GB**, pico **1,42 GB**).
   * **DuckDB**: **elevado** (média \~**2,0 GB**, pico **3,36 GB**).
-  * **PySpark**: **pico** mais alto (**4,2 GB**); a **média** não foi informada neste resumo.
+  * **PySpark**: **elevado** (média \~**2,0 GB**, **pico** mais alto (**4,2 GB**)).
 
 * **Tamanho/estrutura do Parquet**
 
