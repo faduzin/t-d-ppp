@@ -2,3 +2,7 @@ data/*
 !data/.gitkeep
 results/*
 !results/metrics.csv
+.venv
+scripts/__pycache__/
+__pycache__/
+scripts/artifacts
